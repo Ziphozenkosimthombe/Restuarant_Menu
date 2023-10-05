@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Manus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquary.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+</head>
+<body>
+    <!-- navbars -->
+    <header id="home">
+        <nav class="container" >
+            <div >
+                <a href="#home" class="items button">HOME</a>
+                <a href="#menu" class="items button">MENU</a>
+                <a href="#about" class="items button">ABOUT</a>
+                <a href="#contact" class="items button">CONTACT</a>
+            </div>
+        </nav>
+    </header>
+    <section class="image-background">
+        <div id="pizza-sec" class="image-background">
+            <div>
+                <span class="center-text">THE REAL<br>NICE PIZZA</span>
+                <p><a href="#menu" class=" see-the-menu">Let me see the menu</a></p>
+            </div>
+        </div>
+        <div>
+            <span class="open-time">Open from 10am to 10:30pm</span>
+        </div>
+    </section>
+    <section id="menu">
+        <h1 class="heading">THE MENU</h1>
+        <div class="menu-links">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" class="pizza links">Pizza</a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');" class="pasta links">Pasta</a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');" class="starter links">Starter</a>
+        </div>
+        
+    </section>
+    <!-- pizza menu -->
+    <section id="pizza">
+        <div class="items-price">
+            <h1 class="mar">Margherita</h1>
+            <span class="price">$12.50</span>
+            <p class="gray-text">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            <hr class="line">
+        </div>
+        <div class="items-price-2">
+            <h1 class="for">Formaggio</h1>
+            <span class="price-2">$15.50</span>
+            <p class="gray-text-2">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+            <hr class="line-2">
+        </div>
+        <br>
+        <br>
+        <div class="items-price-3">
+            <h1 class="for">MeatTown <span class="hot">HOT!!</span></h1>
+            <span class="price-3">$20.00</span>
+            <p class="gray-text-3">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+            <!-- <hr class="line-3"> -->
+        </div>
+    </section>
+    <!-- PASTA -->
+    <h1 class="heading-2">PASTA</h1>
+    <section id="pasta">
+        <div class="pasta-items-price">
+            <h1 class="la">Lasagna <span class="popu">Popular</span></h1>
+            <span class="pasta-price">$13.50</span>
+            <p class="pasta-gray-text">Special sauce, mozzarella, parmesan, ground beef</p>
+            <hr class="pasta-line">
+        </div>
+        <div class="pasta-items-price-2">
+            <h1 class="ra">Ravioli</h1>
+            <span class="pasta-price-2">$14.50</span>
+            <p class="pasta-gray-text-2">Ravioli filled with cheese</p>
+            <hr class="pasta-line-2">
+        </div>
+        
+        <div class="pasta-items-price-3">
+            <h1 class="sa">Spaghetti Classica </h1>
+            <span class="pasta-price-3">$11.00</span>
+            <p class="pasta-gray-text-3">Fresh tomatoes, onions, ground beef</p>
+            <!-- <hr class="pasta-line-3"> -->
+        </div>
+    </section>
+
+    <!-- STARTERS -->
+    <h1 class="heading-3">STARTERS</h1>
+    <section id="starters">
+        <div class="starters-items-price">
+            <h1 class="la">Today's Soup <span class="popu">Seasonal</span></h1>
+            <span class="starters-price">$5.50</span>
+            <p class="starters-gray-text">Ask the waiter</p>
+            <hr class="starters-line">
+        </div>
+        <div class="starters-items-price-2">
+            <h1 class="ra">Bruschetta</h1>
+            <span class="starters-price-2">$8.50</span>
+            <p class="starters-gray-text-2">Bread with pesto, tomatoes, onion, garlic</p>
+            <hr class="starters-line-2">
+        </div>
+        
+        <div class="starters-items-price-3">
+            <h1 class="sa">Garlic bread </h1>
+            <span class="starters-price-3">$9.50</span>
+            <p class="starters-gray-text-3">Grilled ciabatta, garlic butter, onions</p>
+            <!-- <hr class="pasta-line-3"> -->
+        </div>
+    </section>
+    <section id="#about" class="about-container">
+        <h1 class="about-h1">About</h1>
+        <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="strong"><strong>The Chef?</strong>Mr. Italiano himself <img src="assert/chef.jpg" alt="chef" class="chef"></p>
+        <p>We are proud of our interiors.</p>
+        <p class="restuarant-back-img">
+            <img src="assert/download.jpeg" alt="Restaurant">
+        </p>
+        <h1><b>Opening Hours</b></h1>
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+        <br>
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+    </section>
+
+    <!-- Contact -->
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>

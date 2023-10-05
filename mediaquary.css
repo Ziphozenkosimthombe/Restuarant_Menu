@@ -1,0 +1,105 @@
+@media  screen and (max-width:400px){
+    .items-price,
+    .items-price-2,
+    .items-price-3{
+        gap:27%;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .pasta-items-price,
+    .past-items-price-2,
+    .pasta-gray-text-3{
+        gap:30%;
+    }
+    
+}
+@media screen and (min-width:444px){
+    .pasta-gray-text{
+        position: absolute;
+        top: 15%;
+        background: whitesmoke;
+    }
+    
+    .pasta-line{
+        position: absolute;
+        top:30%;
+        width:90%;
+        border-bottom: 1px solid black;
+    }
+
+    .pasta-gray-text-2{
+        position: absolute;
+        top: 40%;
+        background: whitesmoke;
+    }
+    .pasta-line-2{
+        position: absolute;
+        top:53%;
+        width:90%;
+        border-bottom: 1px solid black;
+    }
+    .pasta-items-price-3{
+        
+        margin-top: 65px;
+    }
+    .pasta-gray-text-3{
+        position: absolute;
+        top: 70%;
+        background: whitesmoke;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .starters-items-price-2{
+        gap:10%;
+    
+    }
+}
+
+@media screen and (min-width:397px){
+    .starters-gray-text{
+        position: absolute;
+        top: 15%;
+    }
+    
+    .starters-line{
+        position: absolute;
+        top:25%;
+        width:90%;
+    }
+
+    .starters-gray-text-2{
+        position: absolute;
+        top: 35%;
+    }
+    
+    .starters-line-2{
+        position: absolute;
+        top:48%;
+        width:90%;
+    }
+
+    .starters-gray-text-3{
+        position: absolute;
+        top: 70%;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .links{
+        min-width: 90%;
+        text-align: center;
+
+    }
+    .menu-links{
+        flex-direction: column;
+        
+    }
+    
+}
