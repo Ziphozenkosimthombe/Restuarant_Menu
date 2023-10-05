@@ -1,18 +1,39 @@
-@media  screen and (max-width:400px){
+/* @media  screen and (max-width:400px){
     .items-price,
     .items-price-2,
     .items-price-3{
         gap:27%;
     }
     
-}
+} */
 
 
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     .pasta-items-price,
     .past-items-price-2,
     .pasta-gray-text-3{
         gap:30%;
+    }
+    
+}  */
+
+@media screen and (max-width:444px){
+    .pasta-items-price-3{
+        
+        margin-top: 120px;
+    }
+    .pasta-items-price-2{
+        margin-top: 100px;
+    }
+    
+}
+@media screen and (max-width:390px){
+    .pasta-items-price-3{
+        
+        margin-top: 100px;
+    }
+    .pasta-gray-text-3{
+        top:85%;
     }
     
 }
