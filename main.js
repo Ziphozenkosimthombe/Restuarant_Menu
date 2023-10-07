@@ -8,7 +8,7 @@ let pizzaImages = [
 ]
 
 // Get the div element where you want to display the background image
-const div = document.getElementById("pizza-sec");
+const div = document.getElementById("image-header");
 // Set the initial background image to the first element in the array
 div.style.backgroundImage = "url(" + pizzaImages[0] + ")";
 
@@ -25,3 +25,10 @@ function changeBackGroundImage(){
 }
 // Call the function every 3 seconds using setInterval
 // setInterval(changeBackGroundImage,2000);
+
+function toggleMenu(){
+    const menu = document.querySelector(".menu-links")
+    const icon = document.querySelector(".hamburger-icon")
+    menu.classList.toggle("open")
+    icon.classList.toggle("open")
+}

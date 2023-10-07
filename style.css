@@ -1,2 +1,408 @@
+/* .start-content:before,
+.start-content:after{
+    content: "";
+    display: table;
+}
+.start-content:after{
+    clear: both;
+}
+.start-content{
+    clear: both;
+    zoom: 0;
+} */
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 700px;
+    height: 900vh;
+    /* overflow-x: initial; */
+}
+body, h1,h2,h3,h4,h5,h6{
+    font-family: "Amatic SC", sans-serif;
+}
+
+/* DESKTOP NAV */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  /* justify-content: flex-end; */
+  margin-left: 17px;
+  align-items: center;
+  height: 47vh;
+}
+
+.nav-links {
+  gap: 5rem;
+  list-style: none;
+  font-size: 3.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: rgba(0,0,0,1);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+  display: none;
+  /* position: absolute;
+  top:0;
+  right: 0; */
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+#image-header{
+  position: relative;
+  width:auto;
+  height:800px;
+  /* background-size: contain; */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: round; */
+
+}
+
+/* #pizza-sec{
+    width:100%;
+    height:100%;
+    background-size: cover;
+} */
+.thin-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size:7rem;
+    /* font-size: clamp(16px, 8vw, 64px); */
+
+    /* word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+
+.white-text {
+    /* Set the vertical alignment of the text to middle */
+    vertical-align: middle;
+}
+
+.open{
+  position:absolute;
+  top:98%;
+  color: black;
+  /* background: rgb(245, 245, 245); */
+
+}
+
+.button-p{
+  position: absolute;
+  top: 65%;
+  left:50%;
+  font-weight: 700px;
+  font-size: 2.5rem;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.p-button{
+  vertical-align: middle;
+}
+#menu{
+  align-items: center;
+  
+}
+.heading,
+.h1{
+  text-align: center;
+  font-size: 7rem;
+}
+.links-menu{
+  display: flex;
+  /* justify-content: center;
+  justify-content: space-around; */
+  border: 2px solid gray;
+  /* width: 100%; */
+  /* margin: 40px 40px; */
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.links{
+  color:black;
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 4rem;  
+}
+
+.links:hover{
+  background: red;
+  text-decoration: none;
+  
+}
+.pizza{
+  background: red;
+}
+#pizza,
+#pasta,
+#starters{
+  align-items: center ;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: white;
+}
+
+.items-price,
+.items-price-2,
+.items-price-3,
+.pasta-items-price,
+.pasta-items-price-2,
+.pasta-items-price-3{
+  margin: 0 10px;
+  margin-right: 40px;
+  background-color: white;
+}
+.name-price,
+.name-price-2,
+.name-price-3{
+  display: flex;
+  justify-content: space-between;
+}
+.for{
+  font-size: 3rem;
+  color:black;
+
+}
+
+.price,
+.price-2,
+.price-3,
+.pasta-price,
+.pasta-price-2,
+.pasta-price-3{
+  font-size: 2.8rem;
+  font-weight: 700px;
+  color:white;
+  margin-top: 27px;
+  height: 30px;
+  width:auto;
+  border-radius: 5%;
+  padding: 5px;
+  text-align: center;
+  background-color: gray;
+}
+
+.gray-text,
+.gray-text-2,
+.gray-text-3,
+.pasta-gray-text,
+.pasta-gray-text-2,
+.pasta-gray-text-3{
+  color: rgb(108, 102, 102);
+  font-size: 3rem;
+}
+.hot{
+  background: red;
+}
+.popu{
+  background: gray;
+  padding: 5px;
+  font-size:2rem;
+}
+
+#about{
+  background: maroon;
+  color:white;
+  /* height:1700px; */
+}
+.about-1{
+  text-align: center;
+  /* padding-top: 20px; */
+  padding-top: 30px;
+}
+.about{
+  font-size: 3.5rem;
+}
+.chef{
+  width:150px;
+  border-radius: 75%;
+  float: right;
+  margin: 10px;
+}
+
+.restuarant-back-img{
+  width:100%;
+}
+.about-text{
+  margin: 0 10px;
+}
+.open-h1{
+  font-size: 4rem;
+  margin-top: 35px;
+}
+
+.open-p-time{
+  font-size: 3.5rem;
+  margin-top: 30px;
+}
+.weekend{
+  margin-top: 80px;
+}
+#contact{
+  background: rgba(17,17,17,0.2);
+}
+.location{
+  width: 100%;
+}
+
+.contact-p{
+  font-size: 3.5rem;
+  color: white;
+}
+
+.message-p{
+  font-size: 5.5rem;
+  margin-top: 70px;
+  color:white;
+}
+
+.input-p,
+.button-input{
+  width: 90%;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 2.5rem;
+  margin-top: 30px;
+
+}
+
+.button-input{
+  font-size: 1.7rem;
+  padding: 15px;
+}
+
+#footer{
+  /* background: rgba(0,0,0,0.5); */
+  /* height: 17vh; */
+  margin: 0 0;
+  justify-content: space-around;
+  display: flex;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; */
+}
+
+.links-nav{
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  font-size: 3.5rem;
+}
+
+.copyright{
+  color:white;
+  font-size: 1.8rem;
+  align-items: center;
+  text-align: center;
+}
