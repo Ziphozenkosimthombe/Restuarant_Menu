@@ -8,8 +8,17 @@
     }
 
     .links-menu{
+        /* display: none; */
+        flex-direction: column;
+
         margin-left:5px;
         margin-right: 5px;
+        
+    }
+    .links{
+        float: none;
+        width: auto;
+        
     }
     #pizza,
     #pasta,

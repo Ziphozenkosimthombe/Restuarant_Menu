@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="mediaquary.css">
 </head>
 <body>
+  <div id="home"></div>
   <nav id="desktop-nav">
       <div>
         <ul class="nav-links">
@@ -38,24 +39,26 @@
 
   <!-- header image -->
   <header id="image-header">
-      <div id="pizza-sec"></div>
-      <div class="open">
-          <span class="open-span">Open from 10am to 12pm</span>
-      </div>
-      <div class="thin-header">
-          <span class="white-text">thin <br> crust pizza</span>
-      </div>
-      <div class="button-p">
-          <p><a href="#menu" class="p-button">Let me see the menu</a></p>
-      </div>
+    <div class="open">
+        <span class="open-span">Open from 10am to 12pm</span>
+    </div>
+    <div class="thin-header">
+        <span class="white-text">thin <br> crust pizza</span>
+    </div>
+    <div class="button-p">
+        <p><a href="#menu" class="p-button">Let me see the menu</a></p>
+    </div>
   </header>
   <!-- menu -->
   <section id="menu">
       <h1 class="heading">THE MENU</h1>
       <div class="links-menu">
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" class="pizza links">Pizza</a>
+          <!-- <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" class="pizza links">Pizza</a>
           <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');" class="pasta links">Pasta</a>
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');" class="starter links">Starter</a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');" class="starter links">Starter</a> -->
+          <a href="#pizza" onclick="toggleMenu()" class="pizza links">Pizza</a>
+          <a href="#pasta" onclick="toggleMenu()"  class="pasta links">Pasta</a>
+          <a href="#starters" onclick="toggleMenu()"  class="starter links">Starter</a>
       </div>      
   </section>
   <!-- pizza -->
