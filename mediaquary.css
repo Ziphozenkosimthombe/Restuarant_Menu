@@ -41,23 +41,6 @@
     }
     
 }
-
-/* @media screen and (max-width:1200px){
-    #desktop-nav{
-        display: none;
-    }
-    #hamburger-nav{
-        display: flex;
-    }
-    
-} */
-/* @media screen and (min-width:1200px){
-    #desktop-nav{
-        display: flex;
-        justify-content: space-around;
-        height: 17vh;
-    }
-} */
 @media screen and (min-width:651px) {
     #desktop-nav{
         display: flex;
@@ -79,11 +62,12 @@
     
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
-    /* Your CSS code for medium screens */
+/*@media screen and (min-width:481px) and (max-width:768px) {
+     Your CSS code for medium screens 
     
 }
 
 @media screen and (min-width:769px) {
-    /* Your CSS code for large screens */
+    Your CSS code for large screens 
 }
+*/

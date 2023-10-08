@@ -1,30 +1,8 @@
-.start-content:before,
-.start-content:after{
-    content: "";
-    display: table;
-}
-.start-content:after{
-    clear: both;
-}
-.start-content{
-    clear: both;
-    zoom: 0;
-}
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-}
-body{
-    /* margin: 0;
-    padding: 0; */
-    /* font-weight: 700px; */
-    width: 100%;
-    
 }
 body, h1,h2,h3,h4,h5,h6{
     font-family: "Amatic SC", sans-serif;
@@ -308,11 +286,10 @@ a:hover {
 #about{
   background: maroon;
   color:white;
-  /* height:1700px; */
+  
 }
 .about-1{
   text-align: center;
-  /* padding-top: 20px; */
   padding-top: 30px;
 }
 .about{
@@ -328,6 +305,7 @@ a:hover {
 .restuarant-back-img{
   width:100%;
 }
+
 .about-text{
   margin: 0 10px;
 }
@@ -391,8 +369,8 @@ a:hover {
 }
 
 .copyright{
-  color:black;
-  font-size: 1.8rem;
+  color:white;
+  font-size: 2rem;
   align-items: center;
   text-align: center;
 }
