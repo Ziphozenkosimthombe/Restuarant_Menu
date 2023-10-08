@@ -17,12 +17,14 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
-    margin: 0;
-    padding: 0;
-    font-weight: 700px;
-    background: plum;
+    /* margin: 0;
+    padding: 0; */
+    /* font-weight: 700px; */
+    width: 100%;
+    
 }
 body, h1,h2,h3,h4,h5,h6{
     font-family: "Amatic SC", sans-serif;
@@ -70,6 +72,8 @@ a:hover {
 
 .hamburger-menu {
   position: relative;
+  left:20%;
+  bottom: 20%;
   display: inline-block;
 }
 
@@ -168,7 +172,12 @@ a:hover {
 .open{
   position:absolute;
   top:98%;
-  color: black;
+  /* color: black; */
+  background: white;
+  color:black;
+  padding: 5px;
+  font-size: 2rem;
+
 }
 
 .button-p{
@@ -193,12 +202,7 @@ a:hover {
   background: black;
 
 }
-.p-button:hover{
-  vertical-align: middle;
-  text-decoration: none;
-  text-underline-offset: 0;
-  text-decoration-color: 0;
-}
+
 #menu{
   align-items: center;
   

@@ -1,19 +1,13 @@
-@media screen and (max-width:480px) {
+@media screen and (max-width:490px) {
     /* Your CSS code for small screens */
-    #desktop-nav{
-        display: none;
-    }
-    #hamburger-nav{
-        display: flex;   
-    }
-
+    
     .links-menu{
         /* display: none; */
         flex-direction: column;
 
         margin-left:5px;
-        margin-right: 5px;
-        
+        margin-right: 5px; 
+
     }
     .links{
         float: none;
@@ -22,11 +16,15 @@
     }
     #pizza,
     #pasta,
-    #starters{
+    #starters,
+    #image-header{
         margin-left:5px;
-        margin-right: 0px;
-        width: 370px;
+        margin-right: 5px;
+        /*  */
     }
+    
+}
+@media  screen and (max-width:660px) {
     .links-nav{
         flex-direction: column;
         gap:2rem;
@@ -41,7 +39,9 @@
         margin: 0 0px;
         background-color: white;
     }
+    
 }
+
 /* @media screen and (max-width:1200px){
     #desktop-nav{
         display: none;
@@ -58,7 +58,7 @@
         height: 17vh;
     }
 } */
-@media screen and (min-width:481px) {
+@media screen and (min-width:651px) {
     #desktop-nav{
         display: flex;
         justify-content: space-around;
@@ -66,6 +66,16 @@
         background: rgba(0,0,0,0.5);
         margin-left: 0;
     }
+    
+}
+@media screen and (max-width:650px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;   
+    }
+
     
 }
 
