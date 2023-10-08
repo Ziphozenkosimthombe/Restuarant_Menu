@@ -30,6 +30,16 @@
         flex-direction: column;
         gap:2rem;
     }
+
+    .items-price,
+    .items-price-2,
+    .items-price-3,
+    .pasta-items-price,
+    .pasta-items-price-2,
+    .pasta-items-price-3{
+        margin: 0 0px;
+        background-color: white;
+    }
 }
 /* @media screen and (max-width:1200px){
     #desktop-nav{
