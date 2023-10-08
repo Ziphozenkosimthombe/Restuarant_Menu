@@ -24,7 +24,7 @@ function changeBackGroundImage(){
 
 }
 // Call the function every 3 seconds using setInterval
-// setInterval(changeBackGroundImage,2000);
+setInterval(changeBackGroundImage,2000);
 
 function toggleMenu(){
     const menu = document.querySelector(".menu-links")
