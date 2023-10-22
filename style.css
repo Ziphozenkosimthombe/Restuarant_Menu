@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-*:before,
-*:after {
-  content: "";
-  display: table;
-}
-*:after {
-  clear: both;
-}
-* {
-  clear: both;
-  *zoom: 1;
-}
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
